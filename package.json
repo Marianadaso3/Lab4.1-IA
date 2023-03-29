@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "quad": "^0.0.20",
+    "simple-linear-regression": "^1.0.3"
+  }
+}
