@@ -1,3 +1,4 @@
+#Archivo que resuelve op cuadraticas
 import numpy as np
 
 sigmoid = lambda X, t: 1 / (1 + np.exp(-(X @ t)))

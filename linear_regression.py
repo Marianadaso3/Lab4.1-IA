@@ -1,4 +1,4 @@
-#from math import *
+#Archivo que resuelve regresiones lineales
 import numpy as np
 
 norm = lambda v: (sum(v**2))**0.5
@@ -11,8 +11,6 @@ def linear_regression(X, y, t, cost, grad, a=0.1, n=1000, on_step=None): # n = 1
         nabla = grad(X, y, t)
         
         t -= a * grad(X, y, t)
-        #t -= a * norm(nabla)
-
         print("t: ", t)
 
         costs.append(cost(X, y, t))
